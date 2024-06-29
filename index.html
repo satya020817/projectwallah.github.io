@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectWallah - Innovate Your Ideas</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https://images.unsplash.com;">
+</head>
+<body>
+    <header>
+        <div class="logo">ProjectWallah</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to ProjectWallah</h1>
+        <p>Innovate your ideas with us!</p>
+        <button onclick="learnMore()">Learn More</button>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a cutting-edge startup dedicated to bringing innovative ideas to life. At ProjectWallah, we believe in the power of creativity and technology to solve real-world problems. Our team of passionate engineers and designers works tirelessly to develop unique projects that push the boundaries of what is possible. Whether you're looking to collaborate on a new venture or seeking inspiration for your next big idea, ProjectWallah is your go-to platform for innovation and excellence.</p>
+        <img src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd" alt="Innovative Project" />
+    </section>
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <img src="https://images.unsplash.com/photo-1501621965065-c6e1cf6b53e2" alt="Project 1" />
+                <p>Project 1: Description</p>
+            </div>
+            <div class="project-item">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Project 2" />
+                <p>Project 2: Description</p>
+            </div>
+            <div class="project-item">
+                <img src="https://images.unsplash.com/photo-1523413651479-597eb2da0ad6" alt="Project 3" />
+                <p>Project 3: Description</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 ProjectWallah. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
